@@ -2,10 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mywish1">
 
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-    <uses-feature android:name="android.hardware.type.watch" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,43 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyWish1">
-        <activity android:name=".fragment.CheckInFragment"></activity>
-        <activity
-            android:name=".adapter.NavigationAdapter"
-            android:label="@string/title_activity_navigation_adapter">
+        <activity android:name="com.example.mywish1.activity.ForgotPasswordActivity"></activity>
+        <activity android:name="com.example.mywish1.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <uses-library
-            android:name="com.google.android.wearable"
-            android:required="true" />
-        <!--
-               Set to true if your app is Standalone, that is, it does not require the handheld
-               app to run.
-        -->
-        <meta-data
-            android:name="com.google.android.wearable.standalone"
-            android:value="true" />
-
-        <activity android:name=".activity.SplashActivity" />
-        <activity android:name=".activity.SignupActivity" />
-        <activity android:name=".activity.LoginActivity" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".activity.ForgotPasswordActivity" />
-        <activity android:name="com.example.com.activity.DashBoardActivity" />
-        <activity android:name="com.example.com.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.example.mywish1.activity.LoginActivity" />
+        <activity android:name="com.example.mywish1.activity.SignupActivity" />
+        <activity android:name="com.example.mywish1.MainActivity" />
+        <activity android:name="com.example.mywish1.activity.DashBoardActivity" />
     </application>
 
 </manifest>
