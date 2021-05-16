@@ -1,4 +1,4 @@
-package com.example.mywish.activity;
+package com.example.mywish1.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -55,6 +55,7 @@ public class DashBoardActivity extends AppCompatActivity implements View.OnClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board);
+        init();
     }
 
     private void init() {
