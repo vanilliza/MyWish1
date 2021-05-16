@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyWish1">
-        <activity android:name=".fragment.checkInFragment"></activity>
+        <activity android:name=".fragment.CheckInFragment"></activity>
         <activity
             android:name=".adapter.NavigationAdapter"
             android:label="@string/title_activity_navigation_adapter">

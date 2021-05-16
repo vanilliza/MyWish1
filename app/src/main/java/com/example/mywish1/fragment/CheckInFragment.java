@@ -15,7 +15,7 @@ import com.example.mywish1.R;
 import static com.example.mywish1.activity.DashBoardActivity.drawer;
 
 
-public class checkInFragment extends Fragment implements View.OnClickListener {
+public class CheckInFragment extends Fragment implements View.OnClickListener {
 
     private ImageView iv_menu;
     @Override

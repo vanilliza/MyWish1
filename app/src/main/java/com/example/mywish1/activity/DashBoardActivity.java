@@ -54,7 +54,7 @@ public class DashBoardActivity extends AppCompatActivity implements View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dash_board);
+        setContentView(R.layout.activity_dashboard);
         init();
     }
 
@@ -189,5 +189,5 @@ public class DashBoardActivity extends AppCompatActivity implements View.OnClick
                     }
 
                 }).show();
-
+      }
     }

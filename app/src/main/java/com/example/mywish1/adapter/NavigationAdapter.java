@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.mywish1.R;
-import com.example.mywish1.interfaces.GetFragmentPosition;haloo
+import com.example.mywish1.interfaces.GetFragmentPosition;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

@@ -19,15 +19,16 @@
     android:layout_height="@dimen/dimen_100"
     android:layout_gravity="center"
     android:src="@drawable/img_logo"/>
-<androidx.appcompat.widget.AppCompatTextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:textSize="@dimen/text_22"
-    android:layout_marginTop="@dimen/dimen_40"
-    android:textColor="@color/fontcolordark"
-    android:fontFamily="@font/nunito_bold"
-    android:text="Login"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_40"
+            android:fontFamily="@font/nunito_regular"
+            android:text="Login"
+            android:textColor="@color/fontcolordark"
+            android:textSize="@dimen/text_22" />
 
     <LinearLayout
         android:layout_width="match_parent"
