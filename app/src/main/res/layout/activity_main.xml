@@ -11,14 +11,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter your name below"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="175dp" />
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="185dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="262dp" />
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="409dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
