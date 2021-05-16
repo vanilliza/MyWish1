@@ -1,8 +1,10 @@
-package com.example.mywish1;
+package com.example.mywish;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.mywish1.R;
 
 public class MainActivity extends AppCompatActivity {
 

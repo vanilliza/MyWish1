@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<ImageView
+    android:layout_marginTop="@dimen/dimen_50"
+    android:layout_width="@dimen/dimen_200"
+    android:layout_height="@dimen/dimen_100"
+    android:layout_gravity="center"
+    android:src="@drawable/img_logo"/>
+<androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="@dimen/text_22"
+    android:layout_marginTop="@dimen/dimen_40"
+    android:textColor="@color/fontcolordark"
+    android:fontFamily="@font/nunito_bold"
+    android:text="Login"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_30"
+        android:layout_marginTop="@dimen/dimen_50"
+        android:layout_marginRight="@dimen/dimen_30"
+        android:background="@drawable/shape_edittext"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_12">
+
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Email address"
+            android:fontFamily="@font/nunito_regular"
+            android:drawablePadding="@dimen/dimen_12"
+            android:drawableLeft="@drawable/ic_email"
+            android:gravity="center_vertical"
+            android:inputType="textEmailAddress"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/fontcolorgrey"
+            android:textSize="@dimen/text_16" />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_30"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:layout_marginRight="@dimen/dimen_30"
+            android:background="@drawable/shape_edittext"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:padding="@dimen/dimen_12">
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:fontFamily="@font/nunito_regular"
+                android:drawablePadding="@dimen/dimen_12"
+                android:drawableLeft="@drawable/ic_password"
+                android:textColorHint="@color/fontcolorgrey"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_16" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:layout_width="@dimen/text_24"
+                android:layout_height="@dimen/text_24"
+                android:src="@drawable/ic_eye"
+                android:visibility="visible"
+                android:gravity="end"
+                />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/dimen_50"
+            android:layout_marginLeft="@dimen/dimen_30"
+            android:layout_marginRight="@dimen/dimen_30"
+            android:background="@drawable/shape_gradient"
+            android:fontFamily="@font/nunito_bold"
+            android:padding="@dimen/dimen_10"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text_16"
+            android:layout_marginTop="@dimen/dimen_30"
+            android:textColor="@color/fontcolorred"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="SignUp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text_16"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:textColor="@color/fontcolorgrey"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Forgot your password?"/>
+    </LinearLayout>
+
+</LinearLayout>

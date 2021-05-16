@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/rl_header"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/shape_gradient_rectangle"
+            android:padding="@dimen/dimen_8">
+
+            <ImageView
+                android:id="@+id/iv_menu"
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_35"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="@dimen/dimen_15"
+                android:ellipsize="end"
+                android:fontFamily="@font/nunito_bold"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:padding="@dimen/dimen_5"
+                android:singleLine="true"
+                android:text="Record Wish"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textDesc" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
