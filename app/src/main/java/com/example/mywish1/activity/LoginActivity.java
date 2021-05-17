@@ -43,8 +43,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.tv_signup:
-                Intent signup = new Intent(context, SignupActivity.class);
-                startActivity(signup);
+                /*Intent signup = new Intent(context, SignupActivity.class);
+                startActivity(signup);*/
+                startActivity(new Intent(this, SignupActivity.class));
                 break;
 
             case R.id.tv_forgot_password:
@@ -58,5 +59,4 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
         }
     }
-
 }
